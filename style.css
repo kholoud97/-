@@ -1,0 +1,114 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url("cristiano_ronaldo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+html{
+    height: 100%;
+    margin: 0;
+}
+.vertical{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #28343e;
+}
+
+.vertical li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 100px;
+}
+.container1 li , .container2 li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    font-size: 14;
+    color: #def1f0;
+}
+.container1 li a , .container2 li a  {
+    padding: 15px 20px;
+    font-size: 14;
+    color: #def1f0;
+    display: inline-block;
+    outline: 0;
+    font-weight: 400; padding: 15px 20px;
+    font-size: 14;
+    color: #def1f0;
+    display: inline-block;
+    outline: 0;
+    font-weight: 400;
+    
+}
+
+.container1 ul , .container2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.container1{
+    background-color: #28343e;
+    margin-left: 90%;
+    position: absolute;
+    height: 100%;
+    width:90%;
+    margin-top: 0;
+}
+#founder{
+    font-size: 25px;
+    color: #568;
+}
+#name{
+    font-size:20px;
+    color: #fff;
+    
+}
+.form{
+    background-color: #555;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin-left: 35%;
+    margin-top: 10%;
+    width:410px;
+    height:200px;
+   
+}
+
+input{
+    padding: 8px;
+    text-align: center;
+    border-radius:5px;
+    margin-left: 10px;
+    border: 5px solid #555;
+    box-shadow: 2px 2px 2px grey;
+}
+
+
+#account{
+    font-size: 30px ;
+    color: cadetblue; 
+    text-align: center; 
+    
+    text-shadow: 4px 3px  #00394d ;
+}
+sign :hover{
+    background-color: darkgreen;
+
+}
+
+.hiddendiv {display:none;}
+.visiblediv {display:block;}
